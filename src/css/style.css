@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#meme{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+   
+}
+#meme img{
+    z-index: -5;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.canvas{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+.text{
+    flex: 1;
+    padding: 30px;   
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+input{
+    margin: 10px;
+    width: 60%;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
